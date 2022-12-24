@@ -1,0 +1,6 @@
+word = input("enter your string")
+needed_word = ("name")
+if needed_word in word:
+    print("yes")
+else:
+    print("no")
