@@ -1,0 +1,14 @@
+a= int(56)
+b= int(10)
+#a)
+print("a&b=", a&b)
+#b)
+print("a|b=", a|b)
+#c)
+print("a^b=", a^b)
+#d
+print("a<<2", a<<2)
+print("b<<2", b<<2)
+#e
+print("a>>2", a>>2)
+print("b>>2", b>>2)
