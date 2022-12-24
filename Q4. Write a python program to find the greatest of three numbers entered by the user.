@@ -1,0 +1,13 @@
+a = float(input("enter your first number"))
+b = float(input("enter your second number"))
+c = float(input("enter your third number"))
+if a > b > c or a > c > b:
+    print(a)
+elif b > c > a or b > a > c:
+    print(b)
+elif c > b > a or c > a > b:
+    print(c)
+elif a==b==c:
+    print("numbers are equal")
+else:
+    print("error")
