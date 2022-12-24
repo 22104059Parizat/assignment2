@@ -1,0 +1,7 @@
+a = float(input("enter your first length"))
+b = float(input("enter your second length"))
+c = float(input("enter your third length"))
+if a > b + c or b > a + c or c > a + c:
+    print("NO")
+else:
+    print("YES")
