@@ -1,0 +1,19 @@
+input_str= "python is a case sensitive language"
+#a
+print(len(input_str))
+#b
+input_str= "python is a case sensitive language" [::-1]
+print(input_str)
+#c
+input_str= "python is a case sensitive language"
+new_str= input_str[10:26]
+print(new_str)
+#d
+input_str = "Python is a case sensitive language"
+print(word.replace("a case sensitive", "an object oriented"))
+#e
+input_str= "Python is a case sensitive language"
+print(input_str.index("a"))
+#f 
+input_str= "Python is a case sensitive language"
+print(input_str.replace(" ", ""))
